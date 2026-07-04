@@ -39,11 +39,11 @@
     <section>
       <h2>R2 (visit ordered)</h2>
       <p class="mdesc">LLaMA-large HMTE decoder; within-visit events kept in observed order (standard cross-entropy).</p>
-      <div class="bb">Mass-corrected backbone <span>cross-modality lifted; 65&ndash;77% of edges are cross-modal</span></div>
+      <div class="bb">Mass-corrected, modality-balanced backbone <span>each source keeps its top targets in every modality; no connected code lacks cross-modality links (~75% cross-modal)</span></div>
       <div class="grid">
-        <a class="card" href="retro500k_cohorts/r2_eval/cancer/decoder_conditional_interactive_graph_mass_topk.html"><div class="t">Cancer &rarr;</div><div class="d">Cancer cohort. Mass-corrected PMI top-k.</div></a>
-        <a class="card" href="retro500k_cohorts/r2_eval/noncancer/decoder_conditional_interactive_graph_mass_topk.html"><div class="t">Non-cancer &rarr;</div><div class="d">Non-cancer cohort. Mass-corrected PMI top-k.</div></a>
-        <a class="card" href="retro500k_cohorts/r2_eval/full/decoder_conditional_interactive_graph_mass_topk.html"><div class="t">Full cohort &rarr;</div><div class="d">All patients. Mass-corrected PMI top-k.</div></a>
+        <a class="card" href="retro500k_cohorts/r2_eval/cancer/decoder_conditional_interactive_graph_mass_topk.html"><div class="t">Cancer &rarr;</div><div class="d">Cancer cohort. Mass-corrected PMI, modality-balanced.</div></a>
+        <a class="card" href="retro500k_cohorts/r2_eval/noncancer/decoder_conditional_interactive_graph_mass_topk.html"><div class="t">Non-cancer &rarr;</div><div class="d">Non-cancer cohort. Mass-corrected PMI, modality-balanced.</div></a>
+        <a class="card" href="retro500k_cohorts/r2_eval/full/decoder_conditional_interactive_graph_mass_topk.html"><div class="t">Full cohort &rarr;</div><div class="d">All patients. Mass-corrected PMI, modality-balanced.</div></a>
       </div>
       <div class="bb">Conditional backbone <span>raw p(next|source); frequent within-modality successors, 15&ndash;24% cross-modal</span></div>
       <div class="grid">
@@ -56,11 +56,11 @@
     <section>
       <h2>R4 (visit-invariant)</h2>
       <p class="mdesc">Adds within-visit event-order invariance loss + within-visit shuffling; highest cross-modality signal.</p>
-      <div class="bb">Mass-corrected backbone <span>cross-modality lifted; 65&ndash;77% of edges are cross-modal</span></div>
+      <div class="bb">Mass-corrected, modality-balanced backbone <span>each source keeps its top targets in every modality; no connected code lacks cross-modality links (~75% cross-modal)</span></div>
       <div class="grid">
-        <a class="card" href="retro500k_cohorts/r4_eval_v2/cancer/decoder_conditional_interactive_graph_mass_topk.html"><div class="t">Cancer &rarr;</div><div class="d">Cancer cohort. Mass-corrected PMI top-k.</div></a>
-        <a class="card" href="retro500k_cohorts/r4_eval_v2/noncancer/decoder_conditional_interactive_graph_mass_topk.html"><div class="t">Non-cancer &rarr;</div><div class="d">Non-cancer cohort. Mass-corrected PMI top-k.</div></a>
-        <a class="card" href="retro500k_cohorts/r4_eval_v2/full/decoder_conditional_interactive_graph_mass_topk.html"><div class="t">Full cohort &rarr;</div><div class="d">All patients. Mass-corrected PMI top-k.</div></a>
+        <a class="card" href="retro500k_cohorts/r4_eval_v2/cancer/decoder_conditional_interactive_graph_mass_topk.html"><div class="t">Cancer &rarr;</div><div class="d">Cancer cohort. Mass-corrected PMI, modality-balanced.</div></a>
+        <a class="card" href="retro500k_cohorts/r4_eval_v2/noncancer/decoder_conditional_interactive_graph_mass_topk.html"><div class="t">Non-cancer &rarr;</div><div class="d">Non-cancer cohort. Mass-corrected PMI, modality-balanced.</div></a>
+        <a class="card" href="retro500k_cohorts/r4_eval_v2/full/decoder_conditional_interactive_graph_mass_topk.html"><div class="t">Full cohort &rarr;</div><div class="d">All patients. Mass-corrected PMI, modality-balanced.</div></a>
       </div>
       <div class="bb">Conditional backbone <span>raw p(next|source); frequent within-modality successors, 15&ndash;24% cross-modal</span></div>
       <div class="grid">
@@ -71,9 +71,9 @@
     </section>
 
     <div class="note">
-      <b>Two backbones</b> decide which edges a graph keeps (top-k targets per source):
-      <br>&nbsp;&nbsp;Mass-corrected &mdash; ranks targets by mass-corrected PMI, which offsets each modality's baseline mass so cross-modality links (diagnosis&ndash;lab, medication&ndash;lab) are not crowded out.
-      <br>&nbsp;&nbsp;Conditional &mdash; ranks targets by raw p(next|source), so edges follow the model's unadjusted next-code distribution and skew within-modality.
+      <b>Two backbones</b> decide which edges a graph keeps:
+      <br>&nbsp;&nbsp;Mass-corrected, modality-balanced &mdash; ranks targets by mass-corrected PMI (offsets each modality's baseline mass) and keeps each source's top targets <i>separately within every modality</i>. So a code connects to its strongest diagnoses, medications, labs and procedures, and no connected code is left without cross-modality links.
+      <br>&nbsp;&nbsp;Conditional &mdash; keeps each source's top targets by raw p(next|source), so edges follow the model's unadjusted next-code distribution and skew within-modality.
       <br><br><b>Edge scores</b> (the <code>rank by</code> control re-scores the shown edges):
       <br>&nbsp;&nbsp;Conditional = p(next|source)
       <br>&nbsp;&nbsp;PMI = conditional PMI = log p(t|s) / p(t)
