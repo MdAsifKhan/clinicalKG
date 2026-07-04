@@ -16,6 +16,8 @@
     section{margin:28px 0 0}
     h2{font-size:16px;margin:0 0 2px}
     .mdesc{color:var(--muted);font-size:12.5px;margin:0 0 13px}
+    .bb{font-size:12px;font-weight:650;color:#3a2f48;margin:15px 0 8px;display:flex;align-items:baseline;gap:8px;flex-wrap:wrap}
+    .bb span{font-weight:400;color:var(--muted);font-size:11.5px}
     .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:12px}
     a.card{display:block;text-decoration:none;color:inherit;border:1px solid var(--line);border-radius:10px;padding:14px 16px;background:#fff;transition:border-color .12s,box-shadow .12s,transform .12s}
     a.card:hover{border-color:var(--accent);box-shadow:0 3px 14px rgba(123,63,176,.10);transform:translateY(-1px)}
@@ -30,37 +32,53 @@
 <body>
   <header>
     <h1>GenEHR decoder knowledge graphs &mdash; retro500K cohorts</h1>
-    <div class="lead">Mass-corrected decoder-conditional association graphs from the GenEHR electronic health record foundation model (LLaMA-large, mixed-radix time encoding, age + demographic conditioning), over the retro500K MGH cohort. Choose a model and cohort below; inside each graph, use <b>rank by</b> to switch the edge score and the top selector to change model or cohort.</div>
+    <div class="lead">Decoder-conditional association graphs from the GenEHR electronic health record foundation model (LLaMA-large, mixed-radix time encoding, age + demographic conditioning), over the retro500K MGH cohort. Each model and cohort comes in two backbones &mdash; <b>mass-corrected</b> (edges chosen to surface cross-modality links) and <b>conditional</b> (edges chosen by raw next-code probability). Inside every graph, use <b>rank by</b> to re-score the shown edges and the top selector to jump between all views.</div>
   </header>
   <main>
 
     <section>
       <h2>R2 (visit ordered)</h2>
       <p class="mdesc">LLaMA-large HMTE decoder; within-visit events kept in observed order (standard cross-entropy).</p>
+      <div class="bb">Mass-corrected backbone <span>cross-modality lifted; 65&ndash;77% of edges are cross-modal</span></div>
       <div class="grid">
-        <a class="card" href="retro500k_cohorts/r2_eval/cancer/decoder_conditional_interactive_graph_mass_topk.html"><div class="t">Cancer &rarr;</div><div class="d">Cancer cohort. Mass-corrected PMI (top-k).</div></a>
-        <a class="card" href="retro500k_cohorts/r2_eval/noncancer/decoder_conditional_interactive_graph_mass_topk.html"><div class="t">Non-cancer &rarr;</div><div class="d">Non-cancer cohort. Mass-corrected PMI (top-k).</div></a>
-        <a class="card" href="retro500k_cohorts/r2_eval/full/decoder_conditional_interactive_graph_mass_topk.html"><div class="t">Full cohort &rarr;</div><div class="d">All patients. Mass-corrected PMI (top-k).</div></a>
+        <a class="card" href="retro500k_cohorts/r2_eval/cancer/decoder_conditional_interactive_graph_mass_topk.html"><div class="t">Cancer &rarr;</div><div class="d">Cancer cohort. Mass-corrected PMI top-k.</div></a>
+        <a class="card" href="retro500k_cohorts/r2_eval/noncancer/decoder_conditional_interactive_graph_mass_topk.html"><div class="t">Non-cancer &rarr;</div><div class="d">Non-cancer cohort. Mass-corrected PMI top-k.</div></a>
+        <a class="card" href="retro500k_cohorts/r2_eval/full/decoder_conditional_interactive_graph_mass_topk.html"><div class="t">Full cohort &rarr;</div><div class="d">All patients. Mass-corrected PMI top-k.</div></a>
+      </div>
+      <div class="bb">Conditional backbone <span>raw p(next|source); frequent within-modality successors, 15&ndash;24% cross-modal</span></div>
+      <div class="grid">
+        <a class="card" href="retro500k_cohorts/r2_eval/cancer/decoder_conditional_interactive_graph_cond_topk.html"><div class="t">Cancer &rarr;</div><div class="d">Cancer cohort. Conditional-probability top-k.</div></a>
+        <a class="card" href="retro500k_cohorts/r2_eval/noncancer/decoder_conditional_interactive_graph_cond_topk.html"><div class="t">Non-cancer &rarr;</div><div class="d">Non-cancer cohort. Conditional-probability top-k.</div></a>
+        <a class="card" href="retro500k_cohorts/r2_eval/full/decoder_conditional_interactive_graph_cond_topk.html"><div class="t">Full cohort &rarr;</div><div class="d">All patients. Conditional-probability top-k.</div></a>
       </div>
     </section>
 
     <section>
       <h2>R4 (visit-invariant)</h2>
       <p class="mdesc">Adds within-visit event-order invariance loss + within-visit shuffling; highest cross-modality signal.</p>
+      <div class="bb">Mass-corrected backbone <span>cross-modality lifted; 65&ndash;77% of edges are cross-modal</span></div>
       <div class="grid">
-        <a class="card" href="retro500k_cohorts/r4_eval_v2/cancer/decoder_conditional_interactive_graph_mass_topk.html"><div class="t">Cancer &rarr;</div><div class="d">Cancer cohort. Mass-corrected PMI (top-k).</div></a>
-        <a class="card" href="retro500k_cohorts/r4_eval_v2/noncancer/decoder_conditional_interactive_graph_mass_topk.html"><div class="t">Non-cancer &rarr;</div><div class="d">Non-cancer cohort. Mass-corrected PMI (top-k).</div></a>
-        <a class="card" href="retro500k_cohorts/r4_eval_v2/full/decoder_conditional_interactive_graph_mass_topk.html"><div class="t">Full cohort &rarr;</div><div class="d">All patients. Mass-corrected PMI (top-k).</div></a>
+        <a class="card" href="retro500k_cohorts/r4_eval_v2/cancer/decoder_conditional_interactive_graph_mass_topk.html"><div class="t">Cancer &rarr;</div><div class="d">Cancer cohort. Mass-corrected PMI top-k.</div></a>
+        <a class="card" href="retro500k_cohorts/r4_eval_v2/noncancer/decoder_conditional_interactive_graph_mass_topk.html"><div class="t">Non-cancer &rarr;</div><div class="d">Non-cancer cohort. Mass-corrected PMI top-k.</div></a>
+        <a class="card" href="retro500k_cohorts/r4_eval_v2/full/decoder_conditional_interactive_graph_mass_topk.html"><div class="t">Full cohort &rarr;</div><div class="d">All patients. Mass-corrected PMI top-k.</div></a>
+      </div>
+      <div class="bb">Conditional backbone <span>raw p(next|source); frequent within-modality successors, 15&ndash;24% cross-modal</span></div>
+      <div class="grid">
+        <a class="card" href="retro500k_cohorts/r4_eval_v2/cancer/decoder_conditional_interactive_graph_cond_topk.html"><div class="t">Cancer &rarr;</div><div class="d">Cancer cohort. Conditional-probability top-k.</div></a>
+        <a class="card" href="retro500k_cohorts/r4_eval_v2/noncancer/decoder_conditional_interactive_graph_cond_topk.html"><div class="t">Non-cancer &rarr;</div><div class="d">Non-cancer cohort. Conditional-probability top-k.</div></a>
+        <a class="card" href="retro500k_cohorts/r4_eval_v2/full/decoder_conditional_interactive_graph_cond_topk.html"><div class="t">Full cohort &rarr;</div><div class="d">All patients. Conditional-probability top-k.</div></a>
       </div>
     </section>
 
     <div class="note">
-      <b>Edge scores</b> (the <code>rank by</code> control inside every graph):
+      <b>Two backbones</b> decide which edges a graph keeps (top-k targets per source):
+      <br>&nbsp;&nbsp;Mass-corrected &mdash; ranks targets by mass-corrected PMI, which offsets each modality's baseline mass so cross-modality links (diagnosis&ndash;lab, medication&ndash;lab) are not crowded out.
+      <br>&nbsp;&nbsp;Conditional &mdash; ranks targets by raw p(next|source), so edges follow the model's unadjusted next-code distribution and skew within-modality.
+      <br><br><b>Edge scores</b> (the <code>rank by</code> control re-scores the shown edges):
       <br>&nbsp;&nbsp;Conditional = p(next|source)
       <br>&nbsp;&nbsp;PMI = conditional PMI = log p(t|s) / p(t)
       <br>&nbsp;&nbsp;Mass-corrected PMI = log p(t|s) / p&#771;(t)
-      <br>Each graph opens on Mass-corrected PMI; use the top selector to switch model and cohort.
-      <br><br><b>Tip:</b> type a code or name (e.g. <code>I48</code>, <code>asthma</code>, <code>metoprolol</code>) and press Enter to focus its nearest neighbours.
+      <br><br><b>Tip:</b> type a code or name (e.g. <code>I48</code>, <code>metformin</code>, <code>warfarin</code>) and press Enter to focus its nearest neighbours; the focus panel keeps <b>balance modalities</b> on so cross-modality partners surface.
     </div>
 
     <footer>
