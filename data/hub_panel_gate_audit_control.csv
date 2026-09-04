@@ -1,0 +1,5 @@
+cohort,cancer,cancer_label,expected_cancer,pass_support,pass_lcb,pass_all
+control,icd_183,Malignant neoplasm of ovary and other uterine adnexa,400.0684394080309,1024,204,117
+control,icd_205,Myeloid leukemia,141.26264694076198,998,521,361
+control,icd_191,Malignant neoplasm of brain,368.12583584176997,1173,385,231
+control,icd_157,Malignant neoplasm of pancreas,140.686365953763,732,125,61

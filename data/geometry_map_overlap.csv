@@ -1,0 +1,7 @@
+pair,knn_overlap
+B:cancer vs B:control,0.39214570290267503
+B:cancer vs B:full,0.40432555492316447
+B:control vs B:full,0.9096186681844054
+A vs B:cancer,0.09288560045532158
+A vs B:control,0.11895276038702333
+A vs B:full,0.11918042117245306

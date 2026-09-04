@@ -1,0 +1,3 @@
+cohort,cancer,cancer_label,expected_cancer,pass_support,pass_lcb,pass_all
+cancer,icd_183,Malignant neoplasm of ovary and other uterine adnexa,24.30236030423987,252,130,119
+cancer,icd_191,Malignant neoplasm of brain,22.24936757972175,301,125,99

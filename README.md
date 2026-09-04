@@ -1,15 +1,18 @@
-# clinicalKG — GenEHR decoder knowledge graphs
+# clinicalKG — genEHR cancer-onset graphs
 
-Static interactive site of decoder-conditional association graphs from the GenEHR
-EHR foundation model. Each `*.html` under the model directories is a fully
-self-contained canvas app (graph data embedded inline). Served via GitHub Pages at
-https://mdasifkhan.github.io/clinicalKG/
+Static site of decoder association graphs leading up to a first cancer diagnosis, from the genEHR
+EHR foundation model. Served at https://mdasifkhan.github.io/clinicalKG/
+
+Every sequence ends at the first cancer, so a cancer code never appears as a source and nothing
+downstream of diagnosis can appear.
 
 Contents:
-- `r2_eval_min4/`, `r4_eval_v2_min4/`, `v1a_noFocal_eval_v1a_min4/` : five views each
-  (conditional, cross-modal, cross-modal mass, mass topk, mass disparity).
-- `index.html` : landing page.
+- `index.html` — cohort selector (cancer / non-cancer / all patients).
+- `graphs/<cohort>.html` — self-contained interactive graph, mass-corrected cPMI backbone.
+- `figures/<cohort>_hub_page.*` — the learned-embedding map, then one row per cancer with a
+  diagnosis neighbourhood and a cross-modal hub.
+- `data/` — the tables behind the figures, including the per-cancer gate audit and the geometry
+  noise-floor tests.
 
-Regenerated from the GenEHR repo with
-`InteractiveKG/rerender_decoder_kg_site.py --hide-ai` (the Ask Claude panel is hidden
-because a static host has no backend).
+Built from the GenEHR repo with `genehrresults/gap_affinity_abc/build_site.py`, which reads the
+three `affinity_graphs/gap_affinity_*_observed.npz` archives.

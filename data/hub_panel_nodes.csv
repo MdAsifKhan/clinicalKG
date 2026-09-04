@@ -1,0 +1,164 @@
+cohort,cancer,cancer_label,side,rank,source,source_label,modality,a,lcb,specificity,expected,tier
+cancer,icd_183,Malignant neoplasm of ovary and other uterine adnexa,diagnosis,1,icd_620,"Noninflammatory disorders of ovary, fallopian tube, and broad ligament",icd,2.576831629403667,2.4287376887983374,3.1313981821819876,1.013642067217198,primary
+cancer,icd_183,Malignant neoplasm of ovary and other uterine adnexa,diagnosis,2,icd_560,Intestinal obstruction without mention of hernia,icd,2.3540098340352205,2.0830950887154893,2.605872453465416,0.3625551564838503,primary
+cancer,icd_183,Malignant neoplasm of ovary and other uterine adnexa,diagnosis,3,icd_V72,Special investigations and examinations,icd,2.056616794871947,1.9860354306922163,1.2241057407872056,7.065936105672222,secondary
+cancer,icd_183,Malignant neoplasm of ovary and other uterine adnexa,diagnosis,4,icd_625,Pain and other symptoms associated with female genital organs,icd,1.8138954568677148,1.5910980966802482,2.917923363242924,0.9275031282541732,primary
+cancer,icd_183,Malignant neoplasm of ovary and other uterine adnexa,diagnosis,5,icd_789,Other symptoms involving abdomen and pelvis,icd,1.5204898973208565,1.358690032871046,1.8750993583698357,2.3503701418223386,primary
+cancer,icd_183,Malignant neoplasm of ovary and other uterine adnexa,diagnosis,6,icd_998,"Other complications of procedures, NEC",icd,1.562509643436725,1.148236013196629,1.6431812414921807,0.3622230406120366,primary
+cancer,icd_183,Malignant neoplasm of ovary and other uterine adnexa,diagnosis,7,icd_759,Other and unspecified congenital anomalies,icd,1.757667735266938,1.081980083871907,1.348455799948891,0.1066840503126727,secondary
+cancer,icd_183,Malignant neoplasm of ovary and other uterine adnexa,cross_modal,1,lab_5821-4_ABNORMAL,Leukocytes [#/area] in Urine sediment by Microscopy high power field - abnormal,lab,3.287064378511031,3.145350298680543,2.8865508434247142,0.5998673122622833,primary
+cancer,icd_183,Malignant neoplasm of ovary and other uterine adnexa,cross_modal,2,lab_19080-1_NORMAL,Choriogonadotropin [Units/volume] in Serum or Plasma - normal,lab,2.8601605341606104,2.7200325777710637,2.322665585005243,1.0062536812712892,primary
+cancer,icd_183,Malignant neoplasm of ovary and other uterine adnexa,cross_modal,3,lab_2160-0_LOW,Creatinine [Mass/volume] in Serum or Plasma - low,lab,2.753367816691096,2.6489111972838653,2.1425017307677843,2.325231343583255,primary
+cancer,icd_183,Malignant neoplasm of ovary and other uterine adnexa,cross_modal,4,lab_5808-1_HIGH,Erythrocytes [#/volume] in Urine sediment by Microscopy high power field - high,lab,2.8198474552007613,2.6461106797596545,2.377214812309309,0.7047893905930778,primary
+cancer,icd_183,Malignant neoplasm of ovary and other uterine adnexa,cross_modal,5,lab_3094-0_LOW,Urea nitrogen [Mass/volume] in Serum or Plasma - low,lab,2.7221892255544136,2.538498620705502,1.9718546964416834,1.0189472209687906,primary
+cancer,icd_183,Malignant neoplasm of ovary and other uterine adnexa,cross_modal,6,lab_2336-6_HIGH,Globulin [Mass/volume] in Serum - high,lab,2.73279030472262,2.526014728041155,2.2265041773152197,0.5101862711324756,primary
+cancer,icd_183,Malignant neoplasm of ovary and other uterine adnexa,cross_modal,7,med_81953,ampicillin,med,2.8189462730796944,2.454777289877325,2.114222764911211,0.2485796670097784,primary
+cancer,icd_183,Malignant neoplasm of ovary and other uterine adnexa,cross_modal,8,med_221058,221058,med,2.779142226967354,2.393594921055142,2.179090774726578,0.23221876394035057,primary
+cancer,icd_183,Malignant neoplasm of ovary and other uterine adnexa,cross_modal,9,med_1299048,1299048,med,2.7759410171479297,2.3888760316352577,2.1778199610332782,0.23035475817394513,primary
+cancer,icd_191,Malignant neoplasm of brain,diagnosis,1,icd_348,Other conditions of brain,icd,4.034887486083038,3.9908484060499085,4.162685742130059,4.021877149215271,primary
+cancer,icd_191,Malignant neoplasm of brain,diagnosis,2,icd_431,Intracerebral hemorrhage,icd,2.6907397895026537,2.366750134926286,3.824486260838218,0.2834689290904908,primary
+cancer,icd_191,Malignant neoplasm of brain,diagnosis,3,icd_432,Other and unspecified intracranial hemorrhage,icd,2.6024300488338024,2.2115105987828065,4.241243395386746,0.2237673617550726,primary
+cancer,icd_191,Malignant neoplasm of brain,diagnosis,4,icd_368,Visual disturbances,icd,2.447291777751332,2.092482825319849,3.063828384926082,0.3135091538821797,primary
+cancer,icd_191,Malignant neoplasm of brain,diagnosis,5,icd_784,Symptoms involving head and neck,icd,2.1362686081702003,1.9816318864507647,2.2893011175320472,2.162746423121092,primary
+cancer,icd_191,Malignant neoplasm of brain,diagnosis,6,icd_331,Other cerebral degenerations,icd,2.343405982579344,1.9314575775284812,3.2991983701617933,0.2469384773710459,primary
+cancer,icd_191,Malignant neoplasm of brain,diagnosis,7,icd_759,Other and unspecified congenital anomalies,icd,2.332231497711001,1.8319859748007399,1.923019562392954,0.17349964188239397,primary
+cancer,icd_191,Malignant neoplasm of brain,diagnosis,8,icd_345,Epilepsy and recurrent seizures,icd,2.0100999327071296,1.5722015747067692,3.4760128833489343,0.30484387807550206,primary
+cancer,icd_191,Malignant neoplasm of brain,cross_modal,1,med_3264,dexamethasone,med,4.113563352432647,4.016511498026444,3.12862521517296,1.7684695108814026,primary
+cancer,icd_191,Malignant neoplasm of brain,cross_modal,2,lab_3968-5_NORMAL,Phenytoin [Mass/volume] in Serum or Plasma - normal,lab,3.8192622173817585,3.6519357553028566,3.312318044183152,0.5574031501018339,primary
+cancer,icd_191,Malignant neoplasm of brain,cross_modal,3,lab_5898-2_LOW,Deprecated Activated partial thrombplastin time (aPTT) in Blood by Coagulation assay - low,lab,3.6188014539710003,3.426407799509207,3.147022102400757,0.519846897178013,primary
+cancer,icd_191,Malignant neoplasm of brain,cross_modal,4,lab_5905-5_LOW,Monocytes/Leukocytes in Blood by Automated count - low,lab,3.512107645749097,3.3628714316808748,3.129093570379845,0.7987129949674454,primary
+cancer,icd_191,Malignant neoplasm of brain,cross_modal,5,med_1297766,atorvastatin,med,3.318120919464796,3.186034718640065,3.6457702589591725,1.018436567560201,primary
+cancer,icd_191,Malignant neoplasm of brain,cross_modal,6,med_1483793,1483793,med,3.3130809380630777,3.180708542770665,3.6415350295072613,1.018743351674459,primary
+cancer,icd_191,Malignant neoplasm of brain,cross_modal,7,med_4278,famotidine,med,3.1420076420647804,2.99123902348557,3.0080895053215544,1.3083949058259918,primary
+cancer,icd_191,Malignant neoplasm of brain,cross_modal,8,lab_2039-6_NORMAL,Carcinoembryonic Ag [Mass/volume] in Serum or Plasma - normal,lab,3.0462540194715393,2.8233347640195374,1.8739871663549528,0.44951608846373503,primary
+cancer,icd_191,Malignant neoplasm of brain,cross_modal,9,lab_2692-2_NORMAL,Osmolality of Serum or Plasma - normal,lab,3.1800528387101625,2.781009603817823,3.01658901376659,0.22178065085612175,primary
+control,icd_183,Malignant neoplasm of ovary and other uterine adnexa,diagnosis,1,icd_620,"Noninflammatory disorders of ovary, fallopian tube, and broad ligament",icd,2.6285056545144805,2.59450764931727,3.4771920861733006,25.477078421029546,primary
+control,icd_183,Malignant neoplasm of ovary and other uterine adnexa,diagnosis,2,icd_568,Other disorders of peritoneum,icd,2.294101074363391,2.0574494285467235,2.32326394859482,0.8892893985740358,primary
+control,icd_183,Malignant neoplasm of ovary and other uterine adnexa,diagnosis,3,icd_V72,Special investigations and examinations,icd,2.00872945621186,1.9877033378199347,1.3184049114463066,112.89513260677631,secondary
+control,icd_183,Malignant neoplasm of ovary and other uterine adnexa,diagnosis,4,icd_789,Other symptoms involving abdomen and pelvis,icd,1.6476269097702843,1.6112675543088266,1.8036759864355458,56.45200341183454,primary
+control,icd_183,Malignant neoplasm of ovary and other uterine adnexa,diagnosis,5,icd_625,Pain and other symptoms associated with female genital organs,icd,1.2597612939019243,1.1682661873323417,2.5121376685027847,13.213295098785238,primary
+control,icd_183,Malignant neoplasm of ovary and other uterine adnexa,cross_modal,1,lab_2039-6_HIGH,Carcinoembryonic Ag [Mass/volume] in Serum or Plasma - high,lab,3.590894501079906,3.441645944530416,1.7331369242868695,0.5028746045873085,primary
+control,icd_183,Malignant neoplasm of ovary and other uterine adnexa,cross_modal,2,lab_19080-1_NORMAL,Choriogonadotropin [Units/volume] in Serum or Plasma - normal,lab,2.9865980545760893,2.9621723099134902,2.6205594125336114,41.40170785228224,primary
+control,icd_183,Malignant neoplasm of ovary and other uterine adnexa,cross_modal,3,med_52356,magnesium citrate,med,3.0264524797986825,2.772481756089259,1.9381782031943342,0.4633710977067551,primary
+control,icd_183,Malignant neoplasm of ovary and other uterine adnexa,cross_modal,4,med_36709,sodium phosphate,med,2.96166443736052,2.740420299992425,1.6318292320273942,0.5904847705779162,primary
+control,icd_183,Malignant neoplasm of ovary and other uterine adnexa,cross_modal,5,lab_2336-6_HIGH,Globulin [Mass/volume] in Serum - high,lab,2.7021044285913742,2.627221919259287,1.837927006697984,5.6336878213776345,primary
+control,icd_183,Malignant neoplasm of ovary and other uterine adnexa,cross_modal,6,med_7300,neomycin,med,2.7830681562206205,2.5388001080057396,1.119477106761486,0.45504966658953094,secondary
+control,icd_183,Malignant neoplasm of ovary and other uterine adnexa,cross_modal,7,lab_1742-6_LOW,Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma - low,lab,2.5291258782152175,2.3466512731235625,2.0959693342276116,1.573161666938148,primary
+control,icd_183,Malignant neoplasm of ovary and other uterine adnexa,cross_modal,8,med_325514,indigotindisulfonate,med,2.5930347227549926,2.316958018288731,1.894331739325261,0.7784530130743974,primary
+control,icd_183,Malignant neoplasm of ovary and other uterine adnexa,cross_modal,9,lab_777-3_HIGH,Platelets [#/volume] in Blood by Automated count - high,lab,2.359036295180763,2.287182923898402,1.0694388122209753,9.978946029942563,secondary
+control,icd_157,Malignant neoplasm of pancreas,diagnosis,1,icd_577,Diseases of pancreas,icd,4.496389628205355,4.489253066807184,4.832740251542093,26.206898868141252,primary
+control,icd_157,Malignant neoplasm of pancreas,diagnosis,2,icd_576,Other disorders of biliary tract,icd,4.255035793350865,4.239299940064563,4.5373934649335315,6.920300963403292,primary
+control,icd_157,Malignant neoplasm of pancreas,diagnosis,3,icd_452,Portal vein thrombosis,icd,3.441743431790038,3.303265124648719,3.178888158101613,0.19650983717521875,primary
+control,icd_157,Malignant neoplasm of pancreas,diagnosis,4,icd_751,Other congenital anomalies of digestive system,icd,2.984924007889817,2.861817627532269,2.8969691723587743,0.45592869089569277,primary
+control,icd_157,Malignant neoplasm of pancreas,diagnosis,5,icd_573,Other disorders of liver,icd,2.4664324331595724,2.413231752356779,1.899188530484563,3.4702595505766567,primary
+control,icd_157,Malignant neoplasm of pancreas,diagnosis,6,icd_537,Other disorders of stomach and duodenum,icd,2.122127814746217,1.9571950589784581,2.1208219403223803,0.5451533754361471,primary
+control,icd_157,Malignant neoplasm of pancreas,diagnosis,7,icd_531,Gastric ulcer,icd,2.0007445212780315,1.7521969228568872,2.5162688392366257,0.2657490294527154,primary
+control,icd_157,Malignant neoplasm of pancreas,diagnosis,8,icd_575,Other disorders of gallbladder,icd,1.8689371135533661,1.7296588289499586,2.5800667900945498,1.0189007879003853,primary
+control,icd_157,Malignant neoplasm of pancreas,cross_modal,1,med_253170,glucagon,med,3.866089107585695,3.8192514025701385,2.887501744331466,1.3382169157087986,primary
+control,icd_157,Malignant neoplasm of pancreas,cross_modal,2,lab_2039-6_HIGH,Carcinoembryonic Ag [Mass/volume] in Serum or Plasma - high,lab,3.3077361364778923,3.1219431339793418,1.4499785596848558,0.13323039280088533,secondary
+control,icd_157,Malignant neoplasm of pancreas,cross_modal,3,med_7300,neomycin,med,2.8917086611488374,2.6862001614018465,1.2281176116897028,0.17838506533601084,secondary
+control,icd_157,Malignant neoplasm of pancreas,cross_modal,4,med_743,amylase,med,2.8937373941921893,2.681372730326947,1.8798485294114842,0.18297609796475278,primary
+control,icd_157,Malignant neoplasm of pancreas,cross_modal,5,med_6406,lipase,med,2.893737393913226,2.6813727300479835,1.8798485294114844,0.18297609796475278,primary
+control,icd_157,Malignant neoplasm of pancreas,cross_modal,6,med_8031,protease,med,2.891878063126311,2.6794073085127215,1.8586314404910345,0.18331781554061788,primary
+control,icd_157,Malignant neoplasm of pancreas,cross_modal,7,med_236460,tizanidine,med,2.8006279065419055,2.4842360399692383,2.4436918402002714,0.10046894472270917,primary
+control,icd_157,Malignant neoplasm of pancreas,cross_modal,8,lab_1968-7_HIGH,Bilirubin.direct [Mass/volume] in Serum or Plasma - high,lab,2.5078675600484037,2.368824064821511,1.7186647034729274,0.7407982186294149,primary
+control,icd_157,Malignant neoplasm of pancreas,cross_modal,9,lab_6768-6_HIGH,Alkaline phosphatase [Enzymatic activity/volume] in Serum or Plasma - high,lab,2.437484948703489,2.3667386359994746,1.3890968824073302,3.2015613499704187,secondary
+control,icd_191,Malignant neoplasm of brain,diagnosis,1,icd_348,Other conditions of brain,icd,3.6737408762989805,3.6627339894735726,4.003291451505631,59.513934216636244,primary
+control,icd_191,Malignant neoplasm of brain,diagnosis,2,icd_742,Other congenital anomalies of nervous system,icd,3.036082536401738,2.9400017383288963,3.64307214892881,1.563060815265338,primary
+control,icd_191,Malignant neoplasm of brain,diagnosis,3,icd_431,Intracerebral hemorrhage,icd,2.6312785245497903,2.577732166852132,3.5622004870247084,7.177536049411174,primary
+control,icd_191,Malignant neoplasm of brain,diagnosis,4,icd_V66,Convalescence and palliative care,icd,2.743196366103156,2.467818418502576,2.9387173717486172,0.2295608217886862,primary
+control,icd_191,Malignant neoplasm of brain,diagnosis,5,icd_377,Disorders of optic nerve and visual pathways,icd,2.407048561156284,2.247351836639039,3.5200671189652337,1.015159585533553,primary
+control,icd_191,Malignant neoplasm of brain,diagnosis,6,icd_368,Visual disturbances,icd,2.2301384777365,2.1535910520586854,2.782485019945203,5.2459723183762605,primary
+control,icd_191,Malignant neoplasm of brain,diagnosis,7,icd_432,Other and unspecified intracranial hemorrhage,icd,2.139989978848975,2.036398002779301,3.391174441995908,3.1673593062595273,primary
+control,icd_191,Malignant neoplasm of brain,diagnosis,8,icd_349,Other and unspecified disorders of the nervous system,icd,2.1855911507761983,2.026458822337433,2.500451062417518,1.3017168919168398,primary
+control,icd_191,Malignant neoplasm of brain,cross_modal,1,med_114477,levetiracetam,med,3.6441994066984025,3.607946060416189,3.2328914958405623,7.5678871535636745,primary
+control,icd_191,Malignant neoplasm of brain,cross_modal,2,med_235988,venlafaxine,med,3.564345440996565,3.4971682770292873,2.6910631601272113,2.3089014711079017,primary
+control,icd_191,Malignant neoplasm of brain,cross_modal,3,lab_3968-5_NORMAL,Phenytoin [Mass/volume] in Serum or Plasma - normal,lab,3.5296095055532084,3.4749397974800074,2.9841687651376985,4.216485448266752,primary
+control,icd_191,Malignant neoplasm of brain,cross_modal,4,med_167,acetazolamide,med,3.2918792180295373,3.088071254863016,2.7590617942228732,0.34586858670681053,primary
+control,icd_191,Malignant neoplasm of brain,cross_modal,5,med_825006,thrombin,med,3.168877961619908,3.0804203126001375,2.0972482113532087,3.0708820927800673,primary
+control,icd_191,Malignant neoplasm of brain,cross_modal,6,med_7396,nicardipine,med,3.1774909549949197,3.0777169963147015,2.248532027301848,1.4689051093184844,primary
+control,icd_191,Malignant neoplasm of brain,cross_modal,7,lab_2692-2_HIGH,Osmolality of Serum or Plasma - high,lab,3.1405471946758943,3.0538432451866724,2.882142147077724,2.52721452190184,primary
+control,icd_191,Malignant neoplasm of brain,cross_modal,8,med_89792,mannitol,med,3.1050773230591027,3.010639408836895,2.2679643483174883,2.0578600446648494,primary
+control,icd_191,Malignant neoplasm of brain,cross_modal,9,med_3264,dexamethasone,med,3.0043786850710656,2.9554821986851016,2.0363952472902693,11.64949346167134,primary
+control,icd_205,Myeloid leukemia,diagnosis,1,icd_284,Aplastic anemia and other bone marrow failure syndromes,icd,4.514296570791606,4.493649751851154,4.632632897391988,2.3894758057450645,primary
+control,icd_205,Myeloid leukemia,diagnosis,2,icd_288,Diseases of white blood cells,icd,3.720211468238479,3.703976875273249,3.271271715913107,8.745037363667052,primary
+control,icd_205,Myeloid leukemia,diagnosis,3,icd_999,"Complications of medical care, not elsewhere classified",icd,2.991686699242036,2.9417714522660234,2.447425087290424,1.9496885464998428,primary
+control,icd_205,Myeloid leukemia,diagnosis,4,icd_289,Other diseases of blood and blood-forming organs,icd,2.7324355481314684,2.682660659427455,2.478982096645016,2.564223236143789,primary
+control,icd_205,Myeloid leukemia,diagnosis,5,icd_283,Acquired hemolytic anemias,icd,2.7663278539723817,2.55655882654977,2.824397426426695,0.1416166169016746,primary
+control,icd_205,Myeloid leukemia,diagnosis,6,icd_287,Purpura and other hemorrhagic conditions,icd,2.521729782307991,2.452359254252108,3.0903823748653436,1.6044293782381374,primary
+control,icd_205,Myeloid leukemia,diagnosis,7,icd_273,Disorders of plasma protein metabolism,icd,1.4410487320618106,1.286211214634362,1.26891398519508,0.9122237837925695,secondary
+control,icd_205,Myeloid leukemia,diagnosis,8,icd_V42,Organ or tissue replaced by transplant,icd,1.4172076697274223,1.236349362615681,2.117540214975792,0.7128710105866176,primary
+control,icd_205,Myeloid leukemia,cross_modal,1,lab_29247-4_NORMAL,Sirolimus [Mass/volume] in Blood - normal,lab,4.535417058375745,4.440934696775891,4.114645022307932,0.25729426261992394,primary
+control,icd_205,Myeloid leukemia,cross_modal,2,lab_4542-7_HIGH,Haptoglobin [Mass/volume] in Serum or Plasma - high,lab,4.397417328461664,4.343454706690186,3.266561005981586,0.5883036782514353,primary
+control,icd_205,Myeloid leukemia,cross_modal,3,lab_2532-0_HIGH,Lactate dehydrogenase [Enzymatic activity/volume] in Serum or Plasma - high,lab,4.141064894300283,4.108771620396727,3.209479726747582,2.3054495251094522,primary
+control,icd_205,Myeloid leukemia,cross_modal,4,med_236058,cefepime,med,3.9112913188184373,3.836364320701983,2.9081384785545294,0.40091166126007494,primary
+control,icd_205,Myeloid leukemia,cross_modal,5,lab_19048-8_HIGH,Nucleated erythrocytes/Leukocytes [Ratio] in Blood - high,lab,3.49082858319403,3.417750507156918,2.724291914402289,0.9474645124291996,primary
+control,icd_205,Myeloid leukemia,cross_modal,6,med_42316,tacrolimus,med,3.4996310649699196,3.3969110218323415,2.549972433695718,0.38537034998723385,primary
+control,icd_205,Myeloid leukemia,cross_modal,7,lab_3255-7_HIGH,Fibrinogen [Mass/volume] in Platelet poor plasma by Coagulation assay - high,lab,3.371493551386115,3.304801522756364,3.0437025716390864,1.3685260142208762,primary
+control,icd_205,Myeloid leukemia,cross_modal,8,lab_4679-7_HIGH,Reticulocytes/Erythrocytes in Blood - high,lab,3.343371805492941,3.2503072086319857,2.561841664205649,0.5477098188839875,primary
+control,icd_205,Myeloid leukemia,cross_modal,9,med_7597,nystatin,med,3.2271845486034096,3.1383584609981967,2.047750136393211,0.6410348911206043,primary
+full,icd_183,Malignant neoplasm of ovary and other uterine adnexa,diagnosis,1,icd_620,"Noninflammatory disorders of ovary, fallopian tube, and broad ligament",icd,2.624650908445968,2.591510614221475,3.4728107081715396,26.490728509102155,primary
+full,icd_183,Malignant neoplasm of ovary and other uterine adnexa,diagnosis,2,icd_568,Other disorders of peritoneum,icd,2.2782062824770337,2.042811728958209,2.331907295127267,0.9059230361092148,primary
+full,icd_183,Malignant neoplasm of ovary and other uterine adnexa,diagnosis,3,icd_V72,Special investigations and examinations,icd,2.0114884050642488,1.9912678057220354,1.3158644671704125,119.95659269991393,secondary
+full,icd_183,Malignant neoplasm of ovary and other uterine adnexa,diagnosis,4,icd_789,Other symptoms involving abdomen and pelvis,icd,1.6409535898888674,1.6054859626396036,1.7999668409839977,58.8017053531953,primary
+full,icd_183,Malignant neoplasm of ovary and other uterine adnexa,diagnosis,5,icd_625,Pain and other symptoms associated with female genital organs,icd,1.2860707062317838,1.1994588515962608,2.54842113959812,14.14082754294111,primary
+full,icd_183,Malignant neoplasm of ovary and other uterine adnexa,cross_modal,1,lab_2039-6_HIGH,Carcinoembryonic Ag [Mass/volume] in Serum or Plasma - high,lab,3.544926412345152,3.406205925161722,1.7664013785799002,0.6155240474316095,primary
+full,icd_183,Malignant neoplasm of ovary and other uterine adnexa,cross_modal,2,lab_19080-1_NORMAL,Choriogonadotropin [Units/volume] in Serum or Plasma - normal,lab,2.9800391309666687,2.9560192774234793,2.625243639057683,42.40787840213898,primary
+full,icd_183,Malignant neoplasm of ovary and other uterine adnexa,cross_modal,3,med_36709,sodium phosphate,med,2.98139717112096,2.7760399636391986,1.6458117064006106,0.6640538460267464,primary
+full,icd_183,Malignant neoplasm of ovary and other uterine adnexa,cross_modal,4,med_52356,magnesium citrate,med,2.9971832346903926,2.7425423251164145,1.9030272639751649,0.46997752677394544,primary
+full,icd_183,Malignant neoplasm of ovary and other uterine adnexa,cross_modal,5,lab_2336-6_HIGH,Globulin [Mass/volume] in Serum - high,lab,2.7074601073461295,2.636560027909456,1.8092839203559463,6.143873517275949,primary
+full,icd_183,Malignant neoplasm of ovary and other uterine adnexa,cross_modal,6,med_7300,neomycin,med,2.777031952818364,2.5398190340552005,1.1466587065958094,0.4757783466055798,secondary
+full,icd_183,Malignant neoplasm of ovary and other uterine adnexa,cross_modal,7,med_325514,indigotindisulfonate,med,2.714898540393297,2.4767921548272973,1.9481953095543028,0.9166614038227507,primary
+full,icd_183,Malignant neoplasm of ovary and other uterine adnexa,cross_modal,8,lab_1742-6_LOW,Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma - low,lab,2.5280110145159065,2.351130545593276,2.073921018934672,1.6402569493276786,primary
+full,icd_183,Malignant neoplasm of ovary and other uterine adnexa,cross_modal,9,lab_777-3_HIGH,Platelets [#/volume] in Blood by Automated count - high,lab,2.360379143252163,2.2916561972257727,1.0664359706093434,10.711460793854371,secondary
+full,icd_157,Malignant neoplasm of pancreas,diagnosis,1,icd_577,Diseases of pancreas,icd,4.480459305610909,4.473501618837526,4.822108864835993,27.819323592647834,primary
+full,icd_157,Malignant neoplasm of pancreas,diagnosis,2,icd_576,Other disorders of biliary tract,icd,4.221625604501728,4.20587855948645,4.50747569917522,7.101145065425953,primary
+full,icd_157,Malignant neoplasm of pancreas,diagnosis,3,icd_452,Portal vein thrombosis,icd,3.4020839274648247,3.2664855187113226,3.1838542817437308,0.21311326533278496,primary
+full,icd_157,Malignant neoplasm of pancreas,diagnosis,4,icd_751,Other congenital anomalies of digestive system,icd,3.086680049286641,2.9801355034127908,2.9727490385705058,0.5445668825430481,primary
+full,icd_157,Malignant neoplasm of pancreas,diagnosis,5,icd_573,Other disorders of liver,icd,2.4661310327086348,2.414886847757397,1.902746025941001,3.7110890321609986,primary
+full,icd_157,Malignant neoplasm of pancreas,diagnosis,6,icd_537,Other disorders of stomach and duodenum,icd,2.120962839559683,1.9625600211713092,2.135335346536075,0.5874741156858398,primary
+full,icd_157,Malignant neoplasm of pancreas,diagnosis,7,icd_531,Gastric ulcer,icd,2.044811294205256,1.8162503010994822,2.5495420465352368,0.2982692184381275,primary
+full,icd_157,Malignant neoplasm of pancreas,diagnosis,8,icd_575,Other disorders of gallbladder,icd,1.8401648855494912,1.7021327718381005,2.5272901988712113,1.061900948860199,primary
+full,icd_157,Malignant neoplasm of pancreas,cross_modal,1,med_253170,glucagon,med,3.79129435627614,3.743682337124815,2.844636323737209,1.3788273845006387,primary
+full,icd_157,Malignant neoplasm of pancreas,cross_modal,2,med_236460,tizanidine,med,3.281191511240225,3.0975336762232364,2.9372376727285805,0.17875595364478514,primary
+full,icd_157,Malignant neoplasm of pancreas,cross_modal,3,lab_2039-6_HIGH,Carcinoembryonic Ag [Mass/volume] in Serum or Plasma - high,lab,3.0818438023710173,2.8747551043745045,1.3033187686057655,0.13671097072105987,secondary
+full,icd_157,Malignant neoplasm of pancreas,cross_modal,4,med_6406,lipase,med,2.9573946688538975,2.762189854264623,1.9400040878778493,0.2014170898958101,primary
+full,icd_157,Malignant neoplasm of pancreas,cross_modal,5,med_743,amylase,med,2.957394668560691,2.7621898539714165,1.9400040878778493,0.2014170898958101,primary
+full,icd_157,Malignant neoplasm of pancreas,cross_modal,6,med_8031,protease,med,2.955446796619892,2.7601209648478204,1.919284722280394,0.20175880530415125,primary
+full,icd_157,Malignant neoplasm of pancreas,cross_modal,7,med_7300,neomycin,med,2.853438156596244,2.6469680820010844,1.2230649103736897,0.18124249410294624,secondary
+full,icd_157,Malignant neoplasm of pancreas,cross_modal,8,med_38413,torsemide,med,2.8401207862514344,2.6141574163253973,2.3714864860604625,0.17764176857983927,primary
+full,icd_157,Malignant neoplasm of pancreas,cross_modal,9,med_8516,polyethylene glycols,med,2.6510748819190963,2.490615959074452,1.8864763834700145,0.3921682400135289,primary
+full,icd_191,Malignant neoplasm of brain,diagnosis,1,icd_348,Other conditions of brain,icd,3.6917735566476737,3.681055454429744,4.010862642620173,63.535799155783025,primary
+full,icd_191,Malignant neoplasm of brain,diagnosis,2,icd_742,Other congenital anomalies of nervous system,icd,3.000045686696561,2.901036492026936,3.623118548369636,1.5678828074439224,primary
+full,icd_191,Malignant neoplasm of brain,diagnosis,3,icd_431,Intracerebral hemorrhage,icd,2.6311279424934315,2.5778157122834933,3.5637072344056095,7.461007811825368,primary
+full,icd_191,Malignant neoplasm of brain,diagnosis,4,icd_V66,Convalescence and palliative care,icd,2.6790956478677854,2.3903276103171853,2.9250279991094694,0.22959878601568562,primary
+full,icd_191,Malignant neoplasm of brain,diagnosis,5,icd_377,Disorders of optic nerve and visual pathways,icd,2.3861148190124317,2.223251606003958,3.5201887220372106,1.0261550946578097,primary
+full,icd_191,Malignant neoplasm of brain,diagnosis,6,icd_368,Visual disturbances,icd,2.239966344752308,2.1648021067459315,2.788823062552617,5.5594815218944404,primary
+full,icd_191,Malignant neoplasm of brain,diagnosis,7,icd_432,Other and unspecified intracranial hemorrhage,icd,2.163119858113748,2.0625915086231146,3.4219146025527065,3.3911254553011645,primary
+full,icd_191,Malignant neoplasm of brain,diagnosis,8,icd_349,Other and unspecified disorders of the nervous system,icd,2.1890554055213194,2.0304640076569007,2.5240316526288944,1.3448538100876988,primary
+full,icd_191,Malignant neoplasm of brain,cross_modal,1,med_114477,levetiracetam,med,3.7030728257012777,3.66922244311775,3.27824917239626,8.415671063191041,primary
+full,icd_191,Malignant neoplasm of brain,cross_modal,2,lab_3968-5_NORMAL,Phenytoin [Mass/volume] in Serum or Plasma - normal,lab,3.5630636342161495,3.511622154401425,3.0026760002131736,4.773884839674679,primary
+full,icd_191,Malignant neoplasm of brain,cross_modal,3,med_235988,venlafaxine,med,3.54506729944063,3.476178621143092,2.69660893987637,2.3094557471677035,primary
+full,icd_191,Malignant neoplasm of brain,cross_modal,4,lab_742-7_LOW,Monocytes [#/volume] in Blood by Automated count - low,lab,3.4067864704821966,3.315766882461465,2.3989231350598406,1.848900229152477,primary
+full,icd_191,Malignant neoplasm of brain,cross_modal,5,med_825006,thrombin,med,3.213350493096023,3.1297090293607126,2.1569487742968767,3.384648402105256,primary
+full,icd_191,Malignant neoplasm of brain,cross_modal,6,med_7396,nicardipine,med,3.1783798405233044,3.078095107108593,2.2675296726021035,1.4994111738472782,primary
+full,icd_191,Malignant neoplasm of brain,cross_modal,7,med_167,acetazolamide,med,3.2855782997500342,3.0780404951745797,2.7681862708919778,0.34586858670681053,primary
+full,icd_191,Malignant neoplasm of brain,cross_modal,8,med_89792,mannitol,med,3.1531920640355113,3.0642213660023674,2.3325018611366195,2.2888789247593166,primary
+full,icd_191,Malignant neoplasm of brain,cross_modal,9,lab_2692-2_HIGH,Osmolality of Serum or Plasma - high,lab,3.138846826598873,3.0525933522334623,2.900536430369482,2.6528817803618665,primary
+full,icd_205,Myeloid leukemia,diagnosis,1,icd_284,Aplastic anemia and other bone marrow failure syndromes,icd,4.5138367844970375,4.4927378676417185,4.5099997959782705,2.680487450452091,primary
+full,icd_205,Myeloid leukemia,diagnosis,2,icd_288,Diseases of white blood cells,icd,3.7811430471867724,3.7652380293600967,3.309143795841171,10.00281121835883,primary
+full,icd_205,Myeloid leukemia,diagnosis,3,icd_999,"Complications of medical care, not elsewhere classified",icd,3.1206172722640733,3.075621369975149,2.548447486528805,2.4516660150375458,primary
+full,icd_205,Myeloid leukemia,diagnosis,4,icd_289,Other diseases of blood and blood-forming organs,icd,2.716696146599477,2.664308243116514,2.476216408527705,2.7335780022921767,primary
+full,icd_205,Myeloid leukemia,diagnosis,5,icd_283,Acquired hemolytic anemias,icd,2.72386490211748,2.4929339972622855,2.8022102591775266,0.14171854801987394,primary
+full,icd_205,Myeloid leukemia,diagnosis,6,icd_287,Purpura and other hemorrhagic conditions,icd,2.485608163905311,2.410988790405509,3.053457678387092,1.672236886900194,primary
+full,icd_205,Myeloid leukemia,diagnosis,7,icd_273,Disorders of plasma protein metabolism,icd,1.397375216690435,1.2320604135183089,1.228195118073559,0.9720200640799703,secondary
+full,icd_205,Myeloid leukemia,diagnosis,8,icd_V42,Organ or tissue replaced by transplant,icd,1.4031198611754425,1.2213753159333316,2.08928292234634,0.8325620354613008,primary
+full,icd_205,Myeloid leukemia,cross_modal,1,lab_29247-4_NORMAL,Sirolimus [Mass/volume] in Blood - normal,lab,4.681582272688129,4.602112086717144,4.193347522204772,0.35874915552375164,primary
+full,icd_205,Myeloid leukemia,cross_modal,2,lab_4542-7_HIGH,Haptoglobin [Mass/volume] in Serum or Plasma - high,lab,4.336094850253808,4.2802548777310205,3.2368732990453375,0.6710410198077632,primary
+full,icd_205,Myeloid leukemia,cross_modal,3,lab_2532-0_HIGH,Lactate dehydrogenase [Enzymatic activity/volume] in Serum or Plasma - high,lab,4.0959078443828805,4.061856546188369,3.100025380924329,2.495423366791499,primary
+full,icd_205,Myeloid leukemia,cross_modal,4,med_236058,cefepime,med,3.8334008754072144,3.750123191704126,2.8586363168677127,0.41013990441812354,primary
+full,icd_205,Myeloid leukemia,cross_modal,5,lab_3255-7_HIGH,Fibrinogen [Mass/volume] in Platelet poor plasma by Coagulation assay - high,lab,3.454916251678589,3.390846669438068,3.1173719733955436,1.5785750094015327,primary
+full,icd_205,Myeloid leukemia,cross_modal,6,lab_19048-8_HIGH,Nucleated erythrocytes/Leukocytes [Ratio] in Blood - high,lab,3.4426623877932463,3.362188128657583,2.6777906623519145,0.9527396538314292,primary
+full,icd_205,Myeloid leukemia,cross_modal,7,med_42316,tacrolimus,med,3.402101096670962,3.288786464701708,2.5169287783091097,0.4026236330700286,primary
+full,icd_205,Myeloid leukemia,cross_modal,8,lab_4679-7_HIGH,Reticulocytes/Erythrocytes in Blood - high,lab,3.325590465796715,3.227500185659777,2.551866380818256,0.5822983611933807,primary
+full,icd_205,Myeloid leukemia,cross_modal,9,lab_2862-1_LOW,Albumin [Mass/volume] in Serum or Plasma by Electrophoresis - low,lab,3.321348120223704,3.164813127970363,2.7296305265935095,0.20729018972984825,primary
